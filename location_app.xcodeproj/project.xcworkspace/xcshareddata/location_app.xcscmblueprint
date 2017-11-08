@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "61B79DC684FE6052B8ECA3B4F8059A7788E22305",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DA7F8096A55E868CC8525D192C5CAEB9133464AD" : 9223372036854775807,
+    "61B79DC684FE6052B8ECA3B4F8059A7788E22305" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BB26BA27-B32B-4FA1-9CDE-6326430BCDA8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DA7F8096A55E868CC8525D192C5CAEB9133464AD" : "",
+    "61B79DC684FE6052B8ECA3B4F8059A7788E22305" : "ScavengerHunt\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "location_app",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "location_app.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tomama1\/ScavengerHunt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61B79DC684FE6052B8ECA3B4F8059A7788E22305"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/edelafuente22\/NinjaKilla.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DA7F8096A55E868CC8525D192C5CAEB9133464AD"
+    }
+  ]
+}
