@@ -46,5 +46,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
     }
     
+    @IBAction func toMainView(_ sender: UIStoryboardSegue) {
+    }
+    
 }
 
