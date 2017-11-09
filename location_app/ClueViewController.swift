@@ -31,7 +31,7 @@ class ClueViewController: UIViewController,  CLLocationManagerDelegate {
     var p5 : (x: Double, y: Double)?
     
     
-    var clueArray=["A place where messes are made, and messes are cleaned, where you can make yourself fat or make yourself lean", "In here, its sports day everyday","for i..3{work hard for a month} \n then come here","I am soft in every bit, and a spot where you like to sit. What am I?"]
+    var clueArray=["A place where messes are made, and messes are cleaned, where you can make yourself fat or make yourself lean", "In here, its sports day everyday","for i in 1..3{work hard for a month} \n then come here","I am soft in every bit, and a spot where you like to sit. What am I?"]
     
     var num:Int?
     
@@ -41,7 +41,6 @@ class ClueViewController: UIViewController,  CLLocationManagerDelegate {
     var randomIndex=Int(arc4random_uniform(UInt32(4)))
     @IBOutlet weak var commentLabel: UILabel!
     @IBOutlet weak var clueLabel: UILabel!
-    @IBOutlet weak var result: UILabel!
     
     var seconds = 60
     var timer = Timer()
@@ -108,6 +107,7 @@ class ClueViewController: UIViewController,  CLLocationManagerDelegate {
         if (status == true){
 
         }
+
         if seconds<=0{
             if (status == false){
                 arraystatus = true
@@ -178,8 +178,7 @@ class ClueViewController: UIViewController,  CLLocationManagerDelegate {
         print(Int(recarea))
         print(Int(triarea))
         print(Int(recarea) == Int(triarea))
-        
-        result.text = String(recarea)+"=="+String(triarea)
+
         if ((triarea - recarea) < 0.5){
             return true
         }
